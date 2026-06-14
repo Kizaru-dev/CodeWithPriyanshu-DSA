@@ -1,4 +1,4 @@
-package Collections_Framework.List_Learn;
+package Collections_Framework.List_Learn.Queue;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

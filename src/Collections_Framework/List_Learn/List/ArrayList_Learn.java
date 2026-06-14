@@ -1,6 +1,5 @@
-package Collections_Framework.List_Learn;
+package Collections_Framework.List_Learn.List;
 
-import java.sql.Array;
 import java.util.*;
 
 public class ArrayList_Learn {

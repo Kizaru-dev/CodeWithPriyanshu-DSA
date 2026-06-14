@@ -1,4 +1,4 @@
-package Collections_Framework.List_Learn;
+package Collections_Framework.List_Learn.List;
 
 import java.util.*;
 
