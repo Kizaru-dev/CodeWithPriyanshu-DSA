@@ -1,5 +1,6 @@
 package Collections_Framework.List_Learn.Queue;
 
+import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -15,7 +16,8 @@ import java.util.Queue;
  * 3. element() - Returns the head of the queue. Throws an exception if the queue is empty <br>
  * 4. peek() - Returns the head of the queue. Returns null if the queue is empty <br>
  * 5. remove() - Returns and removes the head of the queue . Throws an exception if the queue is empty .<br>
- * 6. poll() - Returns and removes the head of the queue . Returns null if the queue is empty .
+ * 6. poll() - Returns and removes the head of the queue . Returns null if the queue is empty .<br>
+ * <b>So we use offer() for insert , peek() for see and poll() to remove</b>
  */
 
 public class Queue_Explained {
@@ -43,7 +45,8 @@ public class Queue_Explained {
         // kartha hai .
 
         System.out.println(queue.poll());
-        // same as remove bas empty queue hoto null return karta hai exception nhi .
+        // same as remove bas empty queue hoto null return karte  hai exception nhi .
+        // aur true return karta hai .
 
 
 
