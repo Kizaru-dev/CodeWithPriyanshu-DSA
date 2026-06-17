@@ -29,6 +29,12 @@ import java.util.Set;
  * 10 . contains() - return true if the set contain the specified element . <br>
  * 11 . containsAll() - return true if the set contains all the elements of the specified collection .<br>
  * 12. hashCode() - returns a hash code value (address of the element in the set ) .
+ * <br><br>
+ * <b>Internal Working of HashSet</b><br>
+ * when we insert an element in hashset . first it <br>
+ * generate a hashcode of that element and then store that in hash table<br>
+ * which is array-like datastructure and it pointed towards the element . <br>
+ *
  */
 public class Set_Explain {
     public static void main(String[] args) {
@@ -71,7 +77,30 @@ public class Set_Explain {
         set.removeAll(hash);
         System.out.println(set);
 
-        // retainAll()
+
+        Set<Integer> set1 = new HashSet<>();
+        Set<Integer> set2 = new HashSet<>();
+
+        set1.add(1);
+        set1.add(2);
+        set1.add(3);
+        set1.add(4);
+        set1.add(5);
+
+        set2.add(3);
+        set2.add(4);
+        set2.add(5);
+        set2.add(6);
+        set2.add(7);
+        set2.add(8);
+
+        System.out.println(set1);
+        set1.retainAll(set2);
+        System.out.println(set1);
+        System.out.println(set2);
+
+
+        System.out.println(set2.containsAll(set1));
 
     }
 }
