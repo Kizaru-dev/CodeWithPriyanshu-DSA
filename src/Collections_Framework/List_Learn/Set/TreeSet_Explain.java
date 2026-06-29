@@ -16,7 +16,7 @@ public class TreeSet_Explain {
 
         TreeSet<Integer> treeSet = new TreeSet<>();
 
-        // inseartion
+        // insectionaw
         treeSet.add(103);
         treeSet.add(101);
         treeSet.add(2222);
